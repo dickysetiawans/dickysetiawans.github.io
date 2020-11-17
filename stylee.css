@@ -1,0 +1,559 @@
+		*{
+			padding: 0;
+			margin: 0;
+			text-decoration: none;
+			list-style: none;
+		}
+		:root{
+	--header-height: 3rem;
+	--font-semi: 600;
+}
+
+/* colores ==*/
+:root{
+	--firs-color: #4070F4;
+	--second-color:#0E2431;
+}
+
+
+/* FUENTE Y TIPOGRAFIA */
+:root{
+	--body-font:'Poppins', sans-serif;
+	--big-font-size: 2rem;
+	--h2-font-size: 1.25rem;
+	--normal-font-size: 0.938rem;
+}
+@media screen and (min-width: 768px){
+	:root{
+	--big-font-size: 3.5rem;
+	--h2-font-size: 2rem;
+	--normal-font-size: 1rem;
+	}
+}
+/* margenes == */
+:root{
+	--mb-1: 0.5rem;
+	--mb-2: 1rem;
+	--mb-3: 1.5rem;
+	--mb-4: 2rem;
+	--mb-5: 2.5rem;
+	--mb-6: 3rem;
+}
+/* z index */
+:root{
+	--z-back: -10; 
+	--z-normal: 1;
+	--z-tooltip: 10;
+	--z-fixed: 100;
+}
+.bd-grid{
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: 100%; 
+  grid-column-gap: 2rem;
+  width: calc(100% - 2rem);
+  margin-left: var(--mb-2);
+  margin-right: var(--mb-2);
+}
+/* base */
+*,::before,::after{
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+h1,h2,p{
+margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+		body{
+			font-family:montserrat;
+		}
+		nav{
+			height: 80px;
+			width: 100%;
+		}
+		label.logo{
+			font-size:35px;
+			font-weight: bold;
+			color: white;
+			padding: 0 100px;
+			line-height: 80px;
+			color: #000;
+		}
+		nav ul{
+			float: right;
+			margin-right: 30px;
+		}
+		nav li{
+			display: inline-block;
+			margin: 0 8px;
+			line-height: 80px;
+		}
+		nav a{
+			color: #000;
+			font-size: 18px;
+			text-transform: uppercase;
+			border: 1px solid transparent; 
+			padding: 7px 10px;
+			border-radius: 3px;
+		}
+		.navbar a.active, .navbar a:hover{
+			border: 1px solid #000;
+			transition:.5s; 
+		}
+		nav #icon{
+			color: white;
+			font-size: 30px;
+			line-height: 80px;
+			float: right;
+			margin-right: 30px;
+			cursor: pointer;
+			display: none;
+		}
+		.bd-grid{
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: 100%; 
+  grid-column-gap: 2rem;
+  width: calc(100% - 2rem);
+  margin-left: var(--mb-2);
+  margin-right: var(--mb-2);
+}
+
+
+
+
+/* home */
+
+.home{
+  height: calc(100vh - 3rem);
+  grid-row-gap: 1rem;
+}
+.home_data{
+  align-self: center;
+}
+.home_title{
+  font-size: var(--big-font-size);
+  margin-bottom: 10px;
+  transition: 1s;
+}
+.home_title-color{
+  color: var(--firs-color);
+  transition: 1s;
+}
+
+.head{
+	background-image: url(background.png);
+	background-size: cover;
+}
+button{
+	width: 80px;
+	height: 45px;
+	border-radius: 6px;
+	background: no-repeat;
+	font-size: 20px;
+	border: 2px solid var(--firs-color);
+}
+button:hover{
+	background-color: var(--second-color);
+	transition: .7s;
+	color: #fff;
+	border: 2px solid var(--second-color);
+}
+.l-main{
+	margin: 50px; 
+	padding: 80px;
+	margin-left: 85px;
+	margin-right: 100px;
+}
+.about{
+	margin-bottom: 150px;
+}
+.text_about{
+	width: 800px;
+	font-size: 21px;
+
+}
+.about_icon{
+	color: var(--firs-color);
+	font-size: 55px;
+	display: inline-block;
+	margin-right: 10px;
+
+}
+.about_icon1{
+	color: var(--firs-color);
+	font-size: 50px;
+	display: inline-block;
+	margin-right: 10px;
+
+}
+.icon{
+	display: inline-block;
+	margin-right: 20px;
+}
+.icon1{
+	display: inline-block;
+	margin-right: 20px;
+}
+.icon2{
+	display: inline-block;
+	
+}
+.about_title{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.game_title{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.text_about{
+	color: #aaa;
+	margin-bottom: 18px;
+}
+.ago{
+	color: #aaa;
+}
+.skills{
+	margin-bottom: 150px;
+}
+.skills_title{
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.skills_about{
+	margin-bottom: 20px;
+}
+.web{
+	margin-bottom: 30px;
+}
+.game_dev{
+	margin-bottom: 30px;
+}
+.mobile{
+	margin-bottom: 30px;
+}
+.html{
+	display: inline-block;
+	margin-right: 20px;
+}
+.css{
+	display: inline-block;
+	margin-right: 20px;
+}
+.javascript{
+	display: inline-block;
+	margin-right: 20px;
+}
+.django{
+	display: inline-block;
+	margin-right: 20px;
+}
+.python1{
+	display: inline-block;
+	margin-right: 20px;
+}
+.c{
+	display: inline-block;
+}
+.php{
+	display: inline-block;
+	margin-right: 20px;
+}
+.python{
+	width: 200px;
+	text-align: right;
+	background-image:linear-gradient(to right, #FFD700, #FFD700,  #00BFFF, #00BFFF);
+}
+.php{
+	display: inline-block;
+	
+}
+
+.c_skills{
+	width: 200px;
+	text-align: right;
+	background-color:#00BFFF;
+}
+.html_skills{
+	width: 200px;
+	text-align: right;
+	background-color: #FF4500;
+	color: #fff;
+}
+.css_skills{
+	width: 200px;
+	text-align: right;
+	background-color:#1E90FF;
+}
+.javascript_skills{
+	width: 200px;
+	text-align: right;
+	background-color: #FFD700;
+}
+.django_skills{
+	width: 200px;
+	text-align: right;
+	background-color:#008B8B;
+}
+.php_skills{
+	width: 200px;
+	text-align: right;
+	background-color:  #8A2BE2;
+	color: #fff;
+}
+.mysql_skills{
+	width: 200px;
+	text-align: right;
+	background-color:#DC143C;
+	color: #fff;
+}
+.title_skills{
+	margin-right: 10px;
+}
+.game{
+	width: 800px;
+	height: 500px;
+	margin-bottom: 150px;
+}
+.game_text{
+	margin: 20px;
+}
+.game_sidebar1{
+	width: 250px;
+	height :400px;
+	border: 3px solid #000;
+	display: inline-block;
+	margin-bottom: 20px;
+	
+}
+.game_sidebar2{
+	width: 250px;
+	height :400px;
+	border: 3px solid #000;
+	display: inline-block;	
+}
+.contact_text{
+	width: 800px;
+	color: #aaa;
+	font-size: 23px;
+	margin-bottom: 20px;
+}
+.contact_icon{
+	font-size: 35px;
+}
+.contact_icon a{
+	color: #000;
+	margin-right: 10px;
+}
+.contact_icon a:hover{
+	color: var(--firs-color);
+	transition: .5s;
+}
+.contact_title{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.footer{
+	text-align: center;
+}
+.navbar1{
+		background-color: var(--second-color);
+		color: #fff;
+
+	}
+@media (max-width: 1048px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 30px;
+	}
+	nav ul{
+		margin-right: 20px;
+	}
+	nav a{
+		font-size: 17px;
+	}	
+}
+@media (max-width: 909px){
+	nav #icon{
+		display: block;
+	}
+	label.logo{
+		color: #fff;
+	}
+	nav ul{
+		position:absolute;
+		width: 80%;
+		height: 100%;
+		background-color:#000;
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+
+	}
+	nav a{
+		font-size: 20px;
+		color: #fff;
+
+	}
+	
+	.navbar a.active, .navbar a:hover{
+			border: 1px solid #fff;
+			transition:.5s; 
+		}
+	nav ul.show{
+		left:0;
+	}
+	
+	.l-main{
+		margin: 1px;
+		padding: 5px; 
+	
+	}
+	.about_icon{
+		font-size: 40px;
+	}
+	.icon{
+		margin-bottom: 20px;
+	}
+	.icon1{
+		margin-bottom: 20px;
+	}
+	.text_about{
+		width:350px;
+	}
+	.text_icon{
+		margin-left: 25px;
+	}
+	.html{
+	display: inline-block;
+	margin-right: 20px;
+}
+	.css{
+	display: inline-block;
+	margin-right: 20px;
+}
+.javascript{
+	display: inline-block;
+	margin-right: 20px;
+}
+.django{
+	display: inline-block;
+	margin-right: 20px;
+}
+.python1{
+	display: inline-block;
+	margin-right: 20px;
+}
+.c{
+	display: inline-block;
+}
+.php{
+	display: inline-block;
+	margin-right: 20px;
+}
+.python{
+	width: 300px;
+	border-radius: 20px;
+	text-align: right;
+	background-image:linear-gradient(to right, #FFD700, #FFD700,  #00BFFF, #00BFFF);
+	margin-bottom: 30px;
+}
+.php{
+	display: inline-block;
+	
+}
+
+.c_skills{
+	width: 300px;
+	border-radius: 20px;
+	text-align: right;
+	background-color:#00BFFF;
+	margin-bottom: 30px;
+}
+.html_skills{
+	width: 300px;
+	text-align: right;
+	background-color: #FF4500;
+	border-radius: 20px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.css_skills{
+	width: 300px;
+	text-align: right;
+	background-color:#1E90FF;
+	margin-bottom: 30px;
+	border-radius: 20px;
+}
+.javascript_skills{
+	width: 300px;
+	text-align: right;
+	background-color: #FFD700;
+	margin-bottom: 30px;
+	border-radius: 20px;
+}
+.django_skills{
+	width: 300px;
+	text-align: right;
+	background-color:#008B8B;
+	margin-bottom: 30px;
+	border-radius: 20px;
+}
+.php_skills{
+	width: 300px;
+	text-align: right;
+	background-color:  #8A2BE2;
+	color: #fff;
+	border-radius: 20px;
+
+}
+.mysql_skills{
+	width: 300px;
+	text-align: right;
+	background-color:#DC143C;
+	color: #fff;
+	border-radius: 20px;
+}
+.game{
+	width: 350px;
+	height: 500px;
+	margin-bottom: 670px;
+}
+.contact_title{
+	margin-bottom: 30px;
+}
+.contact_text{
+		width:350px;
+	}
+.contact_icon{
+	margin-bottom: 30px;
+}
+}
+
+@media screen and(max-width: 768px){
+	
+}
