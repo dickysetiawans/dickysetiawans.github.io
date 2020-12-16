@@ -336,21 +336,24 @@ button:hover{
 }
 #instagram:hover{
 	background-color: #20c997;
-	transition: .5s;
+	transition: .3s;
+	transform: rotateY(180deg);
 }
 #website{
 	background-color: #343a40;
 }
 #website:hover{
 	background-color: #20c997;
-	transition: .5s;
+	transition: .3s;
+	transform: rotateY(180deg);
 }
 #youtube{
 	background-color: #343a40;
 }
 #youtube:hover{
 	background-color: #20c997;
-	transition: .5s;
+	transition: .3s;
+	transform: rotateY(180deg);
 }
 .contact{
 	width: 100%;
@@ -381,6 +384,8 @@ button:hover{
 #icon_contact:hover{
 	background-color: #20c997;
 	transition: .5s;
+	transform: scale(1.1);
+
 }
 #icon_contact1{
 	font-size: 1.7rem;
