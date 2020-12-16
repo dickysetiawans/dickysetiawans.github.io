@@ -80,34 +80,7 @@ img{
 	height: auto;
 	display: block;
 }
-#go{
-	background-color: #fff;
-	color:var(--firs-color);
-}
-#go:hover{
-	background-color:var(--firs-color);
-	color: #fff;
-	transition: .7s;
-}
-.galery_img{
-	box-shadow: 0 4px 20px rgba(14,36,49,.15);
-	border-radius: .5rem;
-	overflow: hidden;
-	transition: 1s;
-}
-.galery_img img{
-	cursor: pointer;
-	transition: .7s;
-}
-.galery_img img:hover{
-	transform: scale(1.3);
-}
-#card{
-	margin-right: 30px;
-}
-#card1{
-	margin-left: 30px;
-}
+
 		body{
 			font-family:montserrat;
 		}
@@ -120,8 +93,8 @@ img{
 			font-size:35px;
 			font-weight: bold;
 			color: white;
-			padding: 0 50px;
-			line-height: 50px;
+			padding:  30px;
+			line-height: 30px;
 			color: #fff;
 		}
 		nav ul{
@@ -193,9 +166,7 @@ img{
 	background-image: url(background.png);
 	background-size: cover;
 }
-.about_subtitle{
-	font-size: 20px;
-}
+
 button{
 	width: 80px;
 	height: 45px;
@@ -210,239 +181,11 @@ button:hover{
 	color: #fff;
 	border: 2px solid var(--second-color);
 }
-.l-main{
-	margin: 50px; 
-	padding: 80px;
-	margin-left: 85px;
-	margin-right: 100px;
-}
-.about{
-	margin-bottom: 150px;
-}
-.text_about{
-	width: 800px;
-	font-size: 21px;
 
-}
-.about_icon{
-	color: var(--firs-color);
-	font-size: 55px;
-	display: inline-block;
-	margin-right: 10px;
 
-}
-.about_icon1{
-	color: var(--firs-color);
-	font-size: 50px;
-	display: inline-block;
-	margin-right: 10px;
+@media (max-width: 768px){
 
-}
-.icon{
-	display: inline-block;
-	margin-right: 20px;
-}
-.icon1{
-	display: inline-block;
-	margin-right: 20px;
-}
-.icon2{
-	display: inline-block;
-	
-}
-.about_title{
-	font-size: 30px;
-	margin-bottom: 20px;
-}
-.game_title{
-	font-size: 30px;
-	margin-bottom: 20px;
-}
-.text_about{
-	color: #aaa;
-	margin-bottom: 18px;
-}
-.ago{
-	color: #aaa;
-	font-size: 17px;
-}
-.skills{
-	margin-bottom: 150px;
-}
-.skills_title{
-	font-size: 30px;
-	margin-bottom: 30px;
-}
-.skills_about{
-	margin-bottom: 20px;
-}
-.web{
-	margin-bottom: 30px;
-}
-.game_dev{
-	margin-bottom: 30px;
-}
-.mobile{
-	margin-bottom: 30px;
-}
-.html{
-	display: inline-block;
-	margin-right: 20px;
-}
-.css{
-	display: inline-block;
-	margin-right: 20px;
-}
-.javascript{
-	display: inline-block;
-	margin-right: 20px;
-}
-.django{
-	display: inline-block;
-	margin-right: 20px;
-}
-.python1{
-	display: inline-block;
-	margin-right: 20px;
-}
-.c{
-	display: inline-block;
-}
-.php{
-	display: inline-block;
-	margin-right: 20px;
-}
-.python{
-	width: 200px;
-	text-align: right;
-	background-image:linear-gradient(to right, #FFD700, #FFD700,  #00BFFF, #00BFFF);
-}
-.php{
-	display: inline-block;
-	
-}
 
-.c_skills{
-	width: 200px;
-	text-align: right;
-	background-color:#00BFFF;
-}
-.html_skills{
-	width: 200px;
-	text-align: right;
-	background-color: #FF4500;
-	color: #fff;
-}
-.css_skills{
-	width: 200px;
-	text-align: right;
-	background-color:#1E90FF;
-}
-.javascript_skills{
-	width: 200px;
-	text-align: right;
-	background-color: #FFD700;
-}
-.django_skills{
-	width: 200px;
-	text-align: right;
-	background-color:#008B8B;
-}
-.php_skills{
-	width: 200px;
-	text-align: right;
-	background-color:  #8A2BE2;
-	color: #fff;
-}
-.mysql_skills{
-	width: 200px;
-	text-align: right;
-	background-color:#DC143C;
-	color: #fff;
-}
-.title_skills{
-	margin-right: 10px;
-}
-.game{
-	width: 800px;
-	height: 500px;
-	margin-bottom: 150px;
-}
-.card{
-	display: inline-block;
-}
-.card1{
-	display: inline-block;
-}
-
-.contact_text{
-	width: 800px;
-	color: #aaa;
-	font-size: 23px;
-	margin-bottom: 20px;
-}
-.contact_icon{
-	font-size: 35px;
-}
-.contact_icon a{
-	color: #000;
-	margin-right: 10px;
-
-}
-.contact_icon a:hover{
-	color: var(--firs-color);
-	transition: .5s;
-	text-decoration: none;
-}
-.contact_title{
-	font-size: 30px;
-	margin-bottom: 20px;
-}
-.footer{
-	text-align: center;
-}
-.navbar1{
-		background-color: var(--second-color);
-		color: #fff;
-		transition: .7s;
-
-	}
-	#BtnTop {
-       	position: fixed;
-        float: left;
-        right: 1%;
-        border: 20px;
-        border-radius: 20px;
-        font-size: 1.5rem;
-        bottom: 3%;
-        transition: .7s;
-        background:transparent;
-
-    }
-    #BtnTop > a {
-        color: white;
-        text-decoration: none;
-        display: inline-block;
-        padding: 2px 10px 2px 10px;
-    }
-    
-@media (max-width: 1048px){
-	label.logo{
-		font-size: 30px;
-		padding-left: 30px;
-	}
-	nav{
-		position: fixed;
-	}
-	nav ul{
-		margin-right: 20px;
-	}
-	nav a{
-		font-size: 17px;
-	}	
-}
-@media (max-width: 909px){
-	
 	nav #icon{
 		display: block;
 	}
@@ -451,7 +194,7 @@ button:hover{
 	}
 	nav ul{
 		position: fixed;
-		width: 80%;
+		width: 70%;
 		height: 100%;
 		background-color:#000;
 		top: 80px;
@@ -470,7 +213,6 @@ button:hover{
 		color: #fff;
 
 	}
-	
 	.navbar a.active, .navbar a:hover{
 			border: 1px solid #fff;
 			transition:.5s; 
@@ -481,143 +223,244 @@ button:hover{
 	.navbar1{
 		background-color: var(--second-color);
 		color: white;
+		padding: 15px;
+		transition: .5s;
+		margin: all 15px;
 	}
 	.navba1 a{
 		color: white;
 
 	}
-	.l-main{
-		margin: 1px;
-		padding: 5px; 
-	
+
+}
+.navbar1{
+		background-color: var(--second-color);
+		color: white;
+		padding: 15px;
+		transition: .5s;
+		margin: all 15px;
 	}
-	.about_icon{
-		font-size: 40px;
+
+	.about{
+		width: 100%;
+		height: 900px;
+		background-color: #343a40;
+		color: #fff;
 	}
-	.icon{
-		margin-bottom: 20px;
-	}
-	.icon1{
-		margin-bottom: 20px;
-	}
-	.text_about{
-		width:350px;
-	}
-	.text_icon{
-		margin-left: 25px;
-	}
-	.html{
-	display: inline-block;
-	margin-right: 20px;
+#about_title{
+	padding-top: 70px;
+	font-size: 3rem;
 }
-	.css{
-	display: inline-block;
-	margin-right: 20px;
+#icon_about{
+	font-size: 1.2rem;
 }
-.javascript{
-	display: inline-block;
-	margin-right: 20px;
+.skills{
+	width: 100%;
+	height: 1500px;
+	background-color:#6c757d;
+	position: relative;
 }
-.django{
-	display: inline-block;
-	margin-right: 20px;
-}
-.python1{
-	display: inline-block;
-	margin-right: 20px;
-}
-.c{
-	display: inline-block;
-}
-.php{
-	display: inline-block;
-	margin-right: 20px;
-}
-.python{
-	width: 300px;
-	border-radius: 20px;
-	text-align: right;
-	background-image:linear-gradient(to right, #FFD700, #FFD700,  #00BFFF, #00BFFF);
-	margin-bottom: 30px;
-}
-.php{
-	display: inline-block;
-	
+.bar{
+  width: 300px;
+  background-color: #ddd;
+  height: 20px;
 }
 
-.c_skills{
-	width: 300px;
-	border-radius: 20px;
-	text-align: right;
-	background-color:#00BFFF;
-	margin-bottom: 30px;
+.skills_bar {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
 }
-.html_skills{
-	width: 300px;
-	text-align: right;
-	background-color: #FF4500;
-	border-radius: 20px;
+.title_skills{
+	color: #20c997;
+	text-shadow: -2px 1px 4px rgba(0, 0, 0, 0.97);
+}
+.text_skills{
 	color: #fff;
-	margin-bottom: 30px;
+	font-size: 1.1rem;
+	text-shadow: -1px 1px 4px rgba(0, 0, 0, 0.97);
 }
-.css_skills{
-	width: 300px;
-	text-align: right;
-	background-color:#1E90FF;
-	margin-bottom: 30px;
-	border-radius: 20px;
-}
-.javascript_skills{
-	width: 300px;
-	text-align: right;
-	background-color: #FFD700;
-	margin-bottom: 30px;
-	border-radius: 20px;
-}
-.django_skills{
-	width: 300px;
-	text-align: right;
-	background-color:#008B8B;
-	margin-bottom: 30px;
-	border-radius: 20px;
-}
-.php_skills{
-	width: 300px;
-	text-align: right;
-	background-color:  #8A2BE2;
-	color: #fff;
-	border-radius: 20px;
+.html {width: 90%; background-color: #FF4500;}
+.css {width: 80%; background-color: #00BFFF;}
+.js {width: 65%; background-color: #FFD700;}
+.php {width: 60%; background-color: #8A2BE2;}
 
-}
-.mysql_skills{
-	width: 300px;
-	text-align: right;
-	background-color:#DC143C;
-	color: #fff;
-	border-radius: 20px;
-}
-.game{
-	width: 350px;
-	height: 500px;
-	margin-bottom: 670px;
-}
-#card{
-	margin-bottom: 20px;
-	margin: 20px;
-}
-#card1{
-	margin-bottom: 20px;
-	margin: 20px;
-}
-.contact_title{
-	margin-bottom: 30px;
-}
-.contact_text{
-		width:350px;
+.python {width: 85%; background: linear-gradient(520deg, #FF0000 50%, #FF4500 100%);}
+.c{width: 60%; background-color: #00BFFF;}
+.pygame{width: 88%; background-color: #7FFF00;}
+.django{width: 70%; background-color: #20c997;}
+.panda{width: 40%; background-color: #DC143C;}
+.protagesql{width: 45%; background-color: #20c997;}
+.mysql{width: 60%; background-color: #20c997;}
+.ux{width: 89%; background-color: #007bff;}
+.webdesain{width: 90%; background-color:#007bff;}
+	.templete_bar{
+		margin-bottom: 30px;
+		display: block;
+		margin-left: 0;
 	}
-.contact_icon{
-	margin-bottom: 30px;
+	.templete_bar1{
+		margin-bottom: 30px;
+		display: block;
+		margin-left: 0;
+	}
+	.templete_bar2{
+		margin-bottom: 30px;
+		display: block;
+		margin-left: 0;
+	}
+	.templete_bar3{
+		margin-bottom: 30px;
+		display: block;
+
+	}
+	.templete_bar4{
+		margin-bottom: 30px;
+		display: block;
+		margin-left: 0;
+
+	}
+	.team{
+	position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 700px;
+	background: linear-gradient(520deg, #4a62ff 50%, #9335ff 100%);
+	position:relative;
+}
+
+
+#instagram{
+	background-color: #343a40;
+}
+#instagram:hover{
+	background-color: #20c997;
+	transition: .5s;
+}
+#website{
+	background-color: #343a40;
+}
+#website:hover{
+	background-color: #20c997;
+	transition: .5s;
+}
+#youtube{
+	background-color: #343a40;
+}
+#youtube:hover{
+	background-color: #20c997;
+	transition: .5s;
+}
+.contact{
+	width: 100%;
+	height: 900px;
+	position: relative;
+	background-color:#455a64;
+
+}
+#contact_text{
+	padding-top: 70px;
+	font-size: 3rem;
+}
+#question{
+	width: 330px;
+}
+#text_contact{
+	width: 300px;
+}
+#contact1{
+	margin-left: 0;
+
+}
+#icon_contact{
+	width: 300px;
+	background-color: #343a40;
+	border: 1px solid #343a40;
+}
+#icon_contact:hover{
+	background-color: #20c997;
+	transition: .5s;
+}
+#icon_contact1{
+	font-size: 1.7rem;
+}
+@media (min-width: 768px){
+	.about{
+	width: 100%;
+	height: 700px;
+	background-color: #343a40;
+	color: #fff;
+	position: relative;
+}
+#about_title{
+	padding-top: 70px;
+	font-size: 3rem;
+}
+.about_date{
+	margin: 90px;
+	margin-left:70px; 
+	display: inline-block;
+}
+.about_text{
+	display: inline-block;
+	width: 500px;
+	position: absolute;
+	margin: 60px;
+}
+.skills{
+	width: 100%;
+	height: 1000px;
+}
+.bar{
+	width: 250px;
+}
+#skill_subtitel{
+	padding-top: 70px;
+	margin-bottom: 40px;
+}
+.templete_bar{
+	display: inline-block;
+	margin-right: 10px;
+}
+.templete_bar1{
+	display: inline-block;
+	margin-left: 10px;
+}
+.templete_bar2{
+	display: inline-block;
+	margin-left: 10px;
+}
+.templete_bar3{
+	display: inline-block;
+	margin-right: 25px;
+}
+.templete_bar4{
+	display: inline-block;
+	margin-left: 25px;
+}
+.garis{
+	width: 300px;
+}
+.img_contact{
+	position: absolute;
+    content: '';
+  	display: inline-block;
+    top: 40px;
+    left: 0;
+    height:200px;
+    width: 400px;
+    margin: 150px;
+   
+}
+#contact1{
+	display: inline-block;
+	margin-left: 500px;
+	width: 500px;
+	margin-bottom: 180px;
+}
+#icon_contact{
+	width: 500px;
 }
 
 }
-
